@@ -775,14 +775,6 @@ on property:persist.radio.atfwd.start=true
 on property:persist.radio.atfwd.start=false
     stop atfwd
 
-# bugreport is triggered by holding down volume down, volume up and power
-service bugreport /system/bin/dumpstate -d -p -B -z \
-        -o /data/user_de/0/com.android.shell/files/bugreports/bugreport
-    class main
-    disabled
-    oneshot
-    keycodes 114 115 116
-
 service chre /vendor/bin/chre
     class late_start
     user system
