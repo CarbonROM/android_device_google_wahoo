@@ -605,3 +605,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUIGoogle
+
+-include device/google/wahoo/device-carbon.mk

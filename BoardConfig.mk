@@ -166,3 +166,5 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
+
+-include device/google/wahoo/BoardConfigCarbon.mk
