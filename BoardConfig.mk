@@ -169,3 +169,5 @@ BOARD_VNDK_VERSION := current
 
 # Generate an APEX image for experiment b/119800099.
 DEXPREOPT_GENERATE_APEX_IMAGE := true
+
+-include device/google/wahoo/BoardConfigCarbon.mk
