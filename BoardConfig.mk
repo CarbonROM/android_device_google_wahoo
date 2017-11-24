@@ -168,3 +168,5 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 TARGET_USES_MKE2FS := true
 
 BOARD_VNDK_VERSION := current
+
+-include device/google/wahoo/BoardConfigCarbon.mk
