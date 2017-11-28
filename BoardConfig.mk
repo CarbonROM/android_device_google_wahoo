@@ -92,16 +92,16 @@ BOARD_HAVE_BLUETOOTH_QCOM := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/google/wahoo/bluetooth
 
 # Enable dex pre-opt to speed up initial boot
-ifeq ($(HOST_OS),linux)
-  ifeq ($(WITH_DEXPREOPT),)
-    WITH_DEXPREOPT := true
-    WITH_DEXPREOPT_PIC := true
-    ifneq ($(TARGET_BUILD_VARIANT),user)
+# ifeq ($(HOST_OS),linux)
+#   ifeq ($(WITH_DEXPREOPT),)
+#     WITH_DEXPREOPT := true
+#     WITH_DEXPREOPT_PIC := true
+#     ifneq ($(TARGET_BUILD_VARIANT),user)
       # Retain classes.dex in APK's for non-user builds
-      DEX_PREOPT_DEFAULT := nostripping
-    endif
-  endif
-endif
+#       DEX_PREOPT_DEFAULT := nostripping
+#     endif
+#   endif
+# endif
 
 # Camera
 TARGET_USES_AOSP := true
