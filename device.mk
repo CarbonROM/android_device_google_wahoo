@@ -527,8 +527,8 @@ PRODUCT_COPY_FILES += \
     device/google/wahoo/fstab.hardware:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.$(PRODUCT_HARDWARE)
 
 # Provide meaningful APN configuration
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/apns-full-conf.xml:system/etc/apns-conf.xml
+# PRODUCT_COPY_FILES += \
+#     $(LOCAL_PATH)/apns-full-conf.xml:system/etc/apns-conf.xml
 
 # Use the default charger mode images
 PRODUCT_PACKAGES += \
