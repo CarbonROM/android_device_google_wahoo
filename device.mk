@@ -41,7 +41,7 @@ SRC_CAMERA_HAL_DIR := hardware/qcom/camera/msm8998
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 
 # Get kernel-headers
-$(call inherit-product, hardware/qcom/msm8998/msm8998.mk)
+# $(call inherit-product, hardware/qcom/msm8998/msm8998.mk)
 
 $(call inherit-product, device/google/wahoo/utils.mk)
 
