@@ -37,6 +37,7 @@
 #define ONDEMAND_GOVERNOR "ondemand"
 #define INTERACTIVE_GOVERNOR "interactive"
 #define SCHEDUTIL_GOVERNOR "schedutil"
+#define ELECTROUTIL_GOVERNOR "electroutil"
 #define SCHED_GOVERNOR "sched"
 
 #define MSMDCVS_GOVERNOR "msm-dcvs"
