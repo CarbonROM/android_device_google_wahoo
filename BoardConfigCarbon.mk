@@ -8,3 +8,6 @@ TARGET_COMPILE_WITH_MSM_KERNEL := true
 
 # Sepolicy
 BOARD_SEPOLICY_DIRS += device/google/marlin/sepolicy/verizon
+
+# Audio
+BOARD_SUPPORTS_SOUND_TRIGGER := true
