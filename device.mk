@@ -27,7 +27,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Enforce privapp-permissions whitelist
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.control_privapp_permissions=disable
+    ro.control_privapp_permissions=enforce
 
 PRODUCT_PACKAGES += \
     messaging
