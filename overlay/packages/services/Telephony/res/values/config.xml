@@ -26,4 +26,7 @@
          This is used to support carriers which generate a recording tone to the remote party
          when a call recording app is in use. -->
     <bool name="config_support_telephony_audio_device">true</bool>
+
+    <!-- Flag to enable VVM3 visual voicemail. VVM3 is used by Verizon Wireless. -->
+    <bool name="vvm3_enabled">true</bool>
 </resources>
