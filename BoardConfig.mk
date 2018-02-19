@@ -35,8 +35,6 @@ BOARD_KERNEL_CMDLINE += swiotlb=2048
 BOARD_KERNEL_CMDLINE += firmware_class.path=/vendor/firmware
 BOARD_KERNEL_CMDLINE += loop.max_part=7
 BOARD_KERNEL_CMDLINE += raid=noautodetect
-# For the love of all that is holy, please do not include this in your ROM unless you really want TWRP to not work correctly!
-BOARD_KERNEL_CMDLINE += androidboot.fastboot=1 
 
 BOARD_KERNEL_BASE        := 0x00000000
 BOARD_KERNEL_PAGESIZE    := 4096
@@ -187,6 +185,5 @@ TW_RECOVERY_ADDITIONAL_RELINK_FILES := out/target/product/$(PRODUCT_HARDWARE)/sy
 TARGET_USES_LOGD := true
 # MTP will not work until we update it to support ffs
 TW_EXCLUDE_MTP := true
-PLATFORM_SECURITY_PATCH := 2025-12-31
 
 -include device/google/wahoo/BoardConfigCarbon.mk
