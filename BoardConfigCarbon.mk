@@ -8,3 +8,6 @@ TARGET_COMPILE_WITH_MSM_KERNEL := true
 
 # Audio
 BOARD_SUPPORTS_SOUND_TRIGGER := true
+
+# Include AmbientSense if it's available
+-include vendor/ambientmusic/AmbientMusic.mk
