@@ -31,4 +31,7 @@
          * The device must be provisioned with HDCP keys (for protected content).
     -->
     <bool name="config_enableWifiDisplay">true</bool>
+
+    <!-- enable support for configure max aspect ratio per app -->
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
 </resources>
