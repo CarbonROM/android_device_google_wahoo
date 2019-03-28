@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "CarbonROM/android_kernel_google_wahoo",
+    "target_path": "kernel/google/wahoo"
+  },
+  {
+    "repository": "CarbonROM/android_external_google",
+    "target_path": "external/google"
+  }
+]
