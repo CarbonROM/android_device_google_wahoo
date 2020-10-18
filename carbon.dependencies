@@ -1,0 +1,18 @@
+[
+  {
+    "remote": "lineage",
+    "repository": "LineageOS/android_kernel_google_wahoo",
+    "target_path": "kernel/google/wahoo",
+    "revision": "lineage-18.1"
+  },
+  {
+    "repository": "CarbonROM/android_packages_apps_ElmyraService",
+    "target_path": "packages/apps/ElmyraService"
+  },
+  {
+    "remote": "lineage",
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "revision": "lineage-18.1"
+  }
+]

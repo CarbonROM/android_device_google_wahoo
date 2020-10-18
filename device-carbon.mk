@@ -45,7 +45,7 @@ PRODUCT_PACKAGES += \
     RcsService
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/wahoo/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/wahoo/overlay-carbon
 
 # Parts
 PRODUCT_PACKAGES += \
@@ -61,7 +61,3 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
