@@ -6,5 +6,9 @@
   {
     "repository": "CarbonROM/android_packages_apps_ElmyraService",
     "target_path": "packages/apps/ElmyraService"
+  },
+  {
+    "repository": "CarbonROM/android_packages_apps_OpenEUICC",
+    "target_path": "packages/apps/OpenEUICC"
   }
 ]
