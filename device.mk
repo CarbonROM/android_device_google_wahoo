@@ -34,7 +34,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     device/google/wahoo/default-permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/default-permissions.xml \
-    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
 
 # Set the SVN for the targeted MR release
@@ -217,10 +216,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     sdm.debug.rotator_downscale=1
 
-# Disable buffer age (b/74534157)
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.hwui.use_buffer_age=false
-
 # Enable camera EIS3.0
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.is_type=5 \
@@ -392,13 +387,9 @@ PRODUCT_PACKAGES += \
 
 # NFC packages
 PRODUCT_PACKAGES += \
-    NfcNci \
     Tag \
     android.hardware.nfc@1.1-service \
     com.android.nfc_extras
-
-PRODUCT_PACKAGES += \
-    SecureElement
 
 PRODUCT_COPY_FILES += \
     device/google/wahoo/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf \
